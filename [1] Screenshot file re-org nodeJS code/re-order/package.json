@@ -1,0 +1,16 @@
+{
+  "name": "re-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/re-order.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "eebod",
+  "license": "ISC",
+  "dependencies": {
+    "regedit": "^5.1.2"
+  }
+}
