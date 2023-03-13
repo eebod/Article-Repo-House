@@ -39,6 +39,7 @@ fs.readdir(screenshotFolder, (err, files) => {
     });
     console.log(`Screenshots file(${imageFiles.length}) Re-organization complete.`)
 
+    //STOP HERE IF YOU DO NOT WANT TO TOUCH WINDOWS REGISTRY
     //REGISTRY UPDATE
     // Get the previous screenshot counter value from the registry
     regedit.list([keyPath], (err, result) => {
